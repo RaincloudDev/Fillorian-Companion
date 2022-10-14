@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+
+li, a, #sidebarObj{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+#headerWrap{
+    display: flex;
+    flex-flow: row;
+    min-width: 100%;
+    max-height: 10rem;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../images/fillory.png");
+    background-color: #771eb3a9;
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headerTitle, #headerNav{
+    display: flex;
+    flex-flow: column;
+    margin: 0 3rem;
+    
+}
+
+#sidebarAlign{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+#sidebarWrap{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    margin-left: 2rem;
+    min-height: 100%;
+    min-width: 20%;
+    background-image: url("../images/fillory.png");
+    background-position: 95% 86%;
+    background-repeat: no-repeat;
+    
+}
+#sidebarObj{
+   font-size: 2rem;
+   align-self: flex-start;
+   background-color: rgba(54, 53, 53, 0.452);
+   min-width: 10rem;
+   border: 1px solid black;
+   border-radius:2rem 3px 2rem 3px;
+}
+#sidebarDivider{
+    align-self: flex-start;
+    min-height: 5px;
+    min-width: 99px;
+    background-color: black;
+    border-radius:2rem 3px 2rem 3px;
+}
+
+#foodDisplay{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+#foodTable{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+  
+#foodObj{
+    margin: 4px;
+}
+
+#coinName{
+    color: black;
+}
+
+#contentAlign, #createCharacter, #characterBuilder{
+    display: flex;
+    
+}
+#formSec, #formSec2, #formSec3, #stats, #skills, #tempHpBlock, #statBlock{
+    display: flex;
+    flex-flow: row;
+}
+#characterBuilder{
+    flex-flow: column wrap;
+    max-width: 60%;
+    align-items: center;
+    
+    
+}
+
